@@ -59,7 +59,7 @@ def parse_template(template):
 
 def merge(template, tple):
     """
-    take the template and format and break apart the tuple from the test.
+    take the template and use format to break apart the tuple from the test.
     """
     return template.format(*tple)
 
